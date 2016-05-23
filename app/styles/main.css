@@ -128,7 +128,7 @@ body{
 }
 
   .round-button-circle {
-    width         : 80%;
+    width         : 98%;
     height        :1%;
     padding-bottom: 0%;
     border-radius : 0%;
@@ -150,7 +150,7 @@ body{
     text-align:center;
     color:#e2eaf3;
     font-family:Verdana;
-    font-size:1.8em;
+    font-size:1.2em;
     font-weight:bold;
     text-decoration:none;
 }
