@@ -30,14 +30,11 @@ background: rgba(0,0,0,.34);
 
 }*/
 
- @media (max-width: 768px){
-    
-    #logo{
-       width: 250px;
-       height: 60px;
-        margin-left: 10%;
-    }
- } 
+#middle{
+  display: flex;
+  margin-left: 20%;
+}
+ 
 
 
 body{
@@ -61,11 +58,10 @@ body{
 
 
 .round-button {
-  width:20%;
-  margin-left: 10%;
+  width:300px;
 }
 .round-button-circle {
-    width         : 100%;
+    width         : 250px;
     height        :0;
     padding-bottom: 100%;
     border-radius : 50%;
@@ -90,7 +86,7 @@ body{
     text-align:center;
     color:#e2eaf3;
     font-family:Verdana;
-    font-size:1.8em;
+    font-size:1.5em;
     font-weight:bold;
     text-decoration:none;
 }
@@ -98,3 +94,73 @@ body{
 .glyphicon {
     font-size: 50px;
 }
+
+
+@media(max-width:1292px){
+  #middle{
+    margin-left: 15%;
+  }
+}
+
+@media(max-width:1040px){
+  #middle{
+    margin-left: 10%;
+  }
+}
+
+@media (max-width: 768px){
+    
+    #logo{
+       width: 250px;
+       height: 60px;
+        margin-left: 10%;
+    }
+
+    #middle{
+  display: inline-block;
+  margin-left: 5%;
+}
+
+  .round-button {
+
+  width:98%;
+
+}
+
+  .round-button-circle {
+    width         : 80%;
+    height        :1%;
+    padding-bottom: 0%;
+    border-radius : 0%;
+    border: 10px solid rgba(8,8,8,0.09);
+    overflow      :hidden;
+    
+   background: rgba(0,0,0,.34);
+    box-shadow    : 0 0 3px gray;
+}
+
+  .round-button a {
+    float:left;
+    width:100%;
+    padding-top:5%;
+    padding-bottom:5%;
+    line-height:1em;
+    margin-top:-0.5em;
+    margin-left: 3%;
+    text-align:center;
+    color:#e2eaf3;
+    font-family:Verdana;
+    font-size:1.8em;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+ } 
+
+ @media (max-width: 600px){
+    .round-button {
+
+  width:98%;
+  margin-left: 10%;
+}
+ }
