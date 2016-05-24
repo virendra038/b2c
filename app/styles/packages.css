@@ -37,3 +37,67 @@ output:after {
 #chill a{
 	color:white;
 }
+
+#sprite_climb{
+    width: 75px;
+    height: auto;
+    background: url(../images/sprite.gif);
+    background-position: 320px 320px;
+    background-size: 600px 900px;
+    padding-top: 80px;
+    border-radius: 40px;
+}
+
+#sprite_jungle{
+	width: 75px;
+    height: auto;
+    background: url(../images/sprite.gif);
+    background-position: 320px 260px;
+    background-size: 600px 900px;
+    padding-top: 80px;
+    border-radius: 40px;
+}
+
+#sprite_desert{
+	width: 75px;
+    height: auto;
+    background: url(../images/sprite.gif);
+    background-position: 250px 260px;
+    background-size: 600px 900px;
+    padding-top: 80px;
+    border-radius: 40px;
+}
+
+#sprite_camp{
+	width: 75px;
+    height: auto;
+    background: url(../images/sprite.gif);
+    background-position: 390px 265px;
+    background-size: 600px 900px;
+    padding-top: 80px;
+    border-radius: 40px;
+}
+
+#sprite_ancient{
+	width: 75px;
+    height: auto;
+    background: url(../images/sprite.gif);
+    background-position: 460px 260px;
+    background-size: 600px 900px;
+    padding-top: 80px;
+    border-radius: 40px;
+}
+
+#sprite_beach{
+	width: 75px;
+    height: auto;
+    background: url(../images/sprite.gif);
+    background-position: 530px 270px;
+    background-size: 600px 900px;
+    padding-top: 80px;
+    border-radius: 40px ;
+}
+
+h2:hover{
+		background-color: red;
+}
