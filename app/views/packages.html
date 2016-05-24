@@ -1,0 +1,62 @@
+<div class="container">
+	<div class="page-header" id="package_header">
+		<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+		<div class="row">
+			<div class="col-md-1"><h3 style="color:white"><span class="glyphicon glyphicon-globe"></span> </h3></div>
+			<div class="col-md-6">
+					<h3 style="color:white">You discovered your vacation theme,location..<br>go ahead browse packages</h3>
+			</div>
+			<div class="col-md-5">
+				<h3><span style="color:red">12</span> <span style="color:white">packages found from 6 partners matching your choices</span></h3>
+			</div>
+		</div>
+	</div>
+
+	<div class="row" style="color:white">
+		<div class="col-md-3">Destinations:
+		
+			<h4><a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>Manali</h4>
+		
+		</div>
+		
+		<div class="col-md-3">
+		<label for="fader">Vacation Days</label>
+		<input type="range" min="1" max="10" value="7" id="fader" step="1" oninput="outputUpdate(value)">
+		<output for="fader" id="days">7</output>
+		</div>
+		<div class="col-md-3">
+		<label for="fader">Price</label>
+		<input type="range" min="1000" max="1000000" value="1000" id="fader" step="1" oninput="outputUpdate1(value)">
+		<output for="fader" id="price">1000</output>
+		</div>	
+		<div class="col-md-3">
+		<label for="fader">Partners Ratings</label>
+		<input type="range" min="1" max="5" value="1000" id="fader" step="1" oninput="outputUpdate2(value)">
+		<output for="fader" id="rating">3</output>
+		</div>						
+	</div>
+	<br><br>
+	<div class="row" id="chill">
+		<div class="col-md-2"><a href="" id="sprite">Adventure<br>Tour</a></div>
+		<div class="col-md-2"><a href="">Beach<br>Get-away</a></div>
+		<div class="col-md-2"><a href="">Jungle Safari</a></div>
+		<div class="col-md-2"><a href="">Ancient City</a></div>
+		<div class="col-md-2"><a href="">Camping</a></div>
+		<div class="col-md-2"><a href="">Desert<br>Safari</a></div>
+	</div>
+
+</div>
+
+<script type="">
+	function outputUpdate(vol) {
+	document.querySelector('#days').value = vol;
+};
+
+	function outputUpdate1(vol) {
+	document.querySelector('#price').value = vol;
+};
+
+	function outputUpdate2(vol) {
+	document.querySelector('#rating').value = vol;
+}
+</script>

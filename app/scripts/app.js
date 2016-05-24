@@ -15,6 +15,12 @@ var b2cApp = angular.module('b2cApp', [
             templateUrl: '../views/home.html',
             controller:'homeCTRL'
             
+        })
+    .state('packages', {
+            url: '/packages',
+            templateUrl: '../views/packages.html',
+            
+            
         });
 
   });
